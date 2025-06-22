@@ -18,7 +18,8 @@
         <section id="blockquote">
             <h2>City Overview</h2>
             <blockquote cite="https://www.britannica.com/place/Rome">
-                <p><strong>Rome</strong>, historic city and capital of Roma provincia (province), of Lazio regione
+                <p>
+                    <strong>Rome</strong>, historic city and capital of Roma provincia (province), of Lazio regione
                     (region), and of the country of Italy.
                 </p>
             </blockquote>
@@ -28,7 +29,7 @@
         <section id="images">
             <h2>Images of Rome</h2>
             <figure>
-                <img src="images/Colosseum-Rome.webp" width="500" alt="The Colosseum">
+                <img src="images/Colosseum-Rome.webp" width="500" alt="The Colosseum" />
                 <figcaption>The iconic Colosseum, one of Rome's greatest architectural feats.</figcaption>
             </figure>
         </section>
@@ -38,7 +39,8 @@
             <h2>Famous Quote</h2>
             <p>
                 <q cite="https://www.goodreads.com/quotes/317877-rome-wasn-t-built-in-a-day">Rome wasn't built in a
-                    day</q> —
+                    day</q>
+                —
                 <cite>John Heywood</cite>
             </p>
         </section>
@@ -58,25 +60,83 @@
         <section id="links">
             <h2>Useful Resources</h2>
             <ul>
-                <li><a href="https://www.rome.net/" target="_blank" title="Official Rome Tourism Guide">Rome.net</a>
+                <li>
+                    <a href="https://www.rome.net/" target="_blank" title="Official Rome Tourism Guide">Rome.net</a>
                 </li>
-                <li><a href="https://www.lonelyplanet.com/italy/rome" target="_blank"
-                        title="Lonely Planet Guide to Rome">Lonely
-                        Planet - Rome</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Rome" target="_blank"
-                        title="Wikipedia page for Rome">Wikipedia -
-                        Rome</a></li>
+                <li>
+                    <a href="https://www.lonelyplanet.com/italy/rome" target="_blank"
+                        title="Lonely Planet Guide to Rome">Lonely Planet - Rome</a>
+                </li>
+                <li>
+                    <a href="https://en.wikipedia.org/wiki/Rome" target="_blank"
+                        title="Wikipedia page for Rome">Wikipedia - Rome</a>
+                </li>
             </ul>
         </section>
 
         <!--Table-->
-        <section>
-
+        <section id="table">
+            <h2>Quick Facts</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Fact</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Population</td>
+                        <td>Approximately 4,347,100</td>
+                    </tr>
+                    <tr>
+                        <td>Area</td>
+                        <td>1,285 km²</td>
+                    </tr>
+                    <tr>
+                        <td>Founded</td>
+                        <td>753 BC</td>
+                    </tr>
+                    <tr>
+                        <td>Language</td>
+                        <td>Italian</td>
+                    </tr>
+                    <tr>
+                        <td>Currency</td>
+                        <td>Euro (€)</td>
+                    </tr>
+                    <tr>
+                        <td>Time Zone</td>
+                        <td>CET (UTC+1)</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
         <!--Form-->
-        <section>
+        <section id="form">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" name="name" class="form-control" required placeholder="Enter your name"
+                    autofocus><br><br>
 
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="asharma6495@conestogac.on.ca"><br><br>
+
+                <label for="reason" class="form-label">Reason for Contact:</label>
+                <select id="reason" name="reason" class="form-control">
+                    <option value="tourism">Tourism Info</option>
+                    <option value="business">Business Inquiry</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+
+                <label for="message" class="form-label">Message:</label>
+                <textarea id="message" name="message" class="form-control" rows="4"
+                    placeholder="Type your message..."></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
         </section>
     </aside>
     <footer>
