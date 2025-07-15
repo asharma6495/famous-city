@@ -6,3 +6,15 @@ html {
     /* background color */
     background-color: #f9f9f9;
 }
+
+body {
+    /* Limit the body's width and center the content using margin */
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Add padding inside the body using rem units */
+    padding: 2rem;
+    /* Apply border */
+    border: 0.1rem solid #cccccc;
+    /* Set the body's background color */
+    background-color: #ffffff;
+}
