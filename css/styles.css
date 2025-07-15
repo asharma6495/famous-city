@@ -199,3 +199,27 @@ tbody tr:hover {
     margin-bottom: 1rem;
     width: 15rem;
 }
+
+/* using media queries to adjust layout for smaller screens: 
+it'll be applied when the screen width is 768px or less */
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    main,
+    aside {
+        float: none;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    iframe,
+    img {
+        width: 100%;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+}
