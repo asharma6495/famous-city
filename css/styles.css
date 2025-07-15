@@ -186,3 +186,16 @@ tbody tr:hover {
     background-color: #e6e6e6;
 }
 
+.form-label {
+    font-variant: small-caps;
+    font-weight: 600;
+    color: #333333;
+}
+
+.form-control {
+    padding: 0.8rem;
+    border: 0.1rem solid #cccccc;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    width: 15rem;
+}
