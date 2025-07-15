@@ -16,7 +16,7 @@ body {
     /* Apply border */
     border: 0.1rem solid #cccccc;
     /* Set the body's background color */
-    background-color: #ffffff;
+    background-color: white;
 }
 
 main {
@@ -122,4 +122,33 @@ iframe {
     color: #303030;
     padding: 1rem;
     margin: 2rem auto;
+}
+
+
+ul {
+    /* Set the list style to none to remove default bullets */
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    /* Set the font color and remove underline */
+    text-decoration: none;
+    color: navy;
+}
+
+a:visited {
+    /* Change the color of visited links */
+    color: purple;
+}
+
+a:hover {
+    /* Change the color of hovered links and add underline */
+    text-decoration: underline;
+    color: black;
+}
+
+a:active {
+    /* Change the color of active links */
+    color: red;
 }
