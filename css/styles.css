@@ -104,3 +104,22 @@ figcaption {
     /* changing font variant to small caps */
     font-variant: small-caps;
 }
+
+iframe {
+    border: 0.2rem solid #444;
+    display: block;
+    margin: 2rem auto;
+    width: 90%;
+}
+
+/* using id selector for quote */
+#quote {
+    border: 0.2rem solid #cccccc;
+    box-shadow: 0 0.4rem 1rem #00000033;
+    width: 80%;
+    font-family: 'Courier New', monospace;
+    font-style: italic;
+    color: #303030;
+    padding: 1rem;
+    margin: 2rem auto;
+}
