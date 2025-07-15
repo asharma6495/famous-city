@@ -80,3 +80,27 @@ blockquote {
     /* Add a shadow effect: horizontal offset, vertical offset, blur, color */
     box-shadow: 0 0.3rem 0.6rem #0000001a;
 }
+
+figure {
+    border: 0.2rem solid #cccccc;
+    /* Set the border radius to create rounded corners using rem units */
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    border: 0.1rem solid #bbbbbb;
+    border-radius: 0.5rem;
+}
+
+figcaption {
+    /* Decrease the font size of the caption text */
+    font-size: 0.8rem;
+    /* changing font variant to small caps */
+    font-variant: small-caps;
+}
