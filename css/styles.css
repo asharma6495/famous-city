@@ -18,3 +18,54 @@ body {
     /* Set the body's background color */
     background-color: #ffffff;
 }
+
+main {
+    /* Float to the left */
+    float: left;
+    width: 65%;
+    padding: 1.5rem;
+}
+
+aside {
+    /* Float to the right */
+    float: right;
+    width: 25%;
+    padding: 1.5rem;
+}
+
+footer {
+    /* Clear the float to ensure footer remains below main and aside */
+    clear: both;
+}
+
+header,
+footer {
+    /* Set the background gradient */
+    background: linear-gradient(to right, #ff5673, #813c3c);
+    /* Set the text color and make it center aligned */
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    /* Increase the font size of the header text*/
+    font-size: 2.5rem;
+}
+
+footer p {
+    /* Decrease the font size of the footer text */
+    font-size: 0.9rem;
+}
+
+section h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: 600;
+    font-family: Georgia, serif;
+    color: #ff5673;
+    text-align: center;
+}
+
+
+
