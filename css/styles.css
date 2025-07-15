@@ -1,2 +1,8 @@
 /* Ajay Sharma | Student Number: asharma6495 */
 
+html {
+    /* Font shorthand: style variant weight size/line-height family */
+    font: normal small-caps 400 20px/1.5 'Segoe UI', sans-serif;
+    /* background color */
+    background-color: #f9f9f9;
+}
